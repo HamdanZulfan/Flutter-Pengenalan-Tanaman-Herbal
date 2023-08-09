@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "617810494354",
+    "project_id": "tanaman-herbal-b5a9e",
+    "storage_bucket": "tanaman-herbal-b5a9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617810494354:android:e5b4e9f51b0076c48ff74b",
+        "android_client_info": {
+          "package_name": "com.example.pengenalan_tanaman_herbal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617810494354-j4hrsi73siko7c3j2rq2j8ikqks9mk1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA9oGgHI8MHAIFiqNOKX9y-Gg9V0iZJiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617810494354-j4hrsi73siko7c3j2rq2j8ikqks9mk1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

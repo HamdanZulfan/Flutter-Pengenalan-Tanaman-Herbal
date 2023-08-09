@@ -1,0 +1,5 @@
+0 Daun Sirih
+1 Daun Kunyit
+2 Daun Mint
+3 Daun Pepaya
+4 Lidah Buaya
