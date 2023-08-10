@@ -27,11 +27,21 @@ class _JenisTanamanScreenState extends State<JenisTanamanScreen> {
             child: Column(
               children: [
                 Center(
-                  child: Text(
-                    'Jenis Tanaman Herbal',
-                    style: greenTextStyle.copyWith(
-                      fontWeight: bold,
-                      fontSize: 24,
+                  child: Container(
+                    height: 55,
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                      color: kGreenBold,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Center(
+                      child: Text(
+                        'Jenis Tanaman Herbal',
+                        style: whiteTextStyle.copyWith(
+                          fontWeight: bold,
+                          fontSize: 20,
+                        ),
+                      ),
                     ),
                   ),
                 ),

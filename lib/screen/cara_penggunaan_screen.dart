@@ -13,11 +13,21 @@ class CaraPenggunaanScreen extends StatelessWidget {
           child: ListView(
             children: [
               Center(
-                child: Text(
-                  'Cara Penggunaan Aplikasi',
-                  style: greenTextStyle.copyWith(
-                    fontWeight: bold,
-                    fontSize: 24,
+                child: Container(
+                  height: 55,
+                  width: MediaQuery.of(context).size.width,
+                  decoration: BoxDecoration(
+                    color: kGreenBold,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: Center(
+                    child: Text(
+                      'Cara Pengunaan Aplikasi',
+                      style: whiteTextStyle.copyWith(
+                        fontWeight: bold,
+                        fontSize: 20,
+                      ),
+                    ),
                   ),
                 ),
               ),
@@ -220,7 +230,7 @@ class CaraPenggunaanScreen extends StatelessWidget {
                         ],
                       ),
                       Text(
-                        'Pada Menu Deteksi digunakan untuk mendeteksi jenis tanaman herbal menggunakan kamera dengan cara mengambil citra atau memasukan gambar dari galeri pada objek yang akan di deteksi. Akan muncul hasil deteksi dari objek tersebut.',
+                        'Pada Menu Deteksi digunakan untuk mendeteksi jenis tanaman herbal menggunakan kamera atau pilih gambar dari galeri yang akan diidentifikasi.',
                         style: blackTextStyle.copyWith(
                           fontSize: 20,
                           fontWeight: medium,
