@@ -86,7 +86,7 @@ class _DeteksiScreenState extends State<DeteksiScreen> {
                 Container(
                   width: MediaQuery.of(context).size.width,
                   decoration: BoxDecoration(
-                    color: kGreenColor,
+                    color: kGreenBold,
                     borderRadius: BorderRadius.circular(10),
                   ),
                   child: Center(
