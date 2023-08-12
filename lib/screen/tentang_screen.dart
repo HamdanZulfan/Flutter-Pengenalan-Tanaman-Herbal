@@ -30,11 +30,25 @@ class _TentangScreenState extends State<TentangScreen> {
                     ),
                   ),
                 ),
-                Text(
-                  'Aplikasi ini dibuat untuk memberikan\n informasi mengenai tanaman herbal\n serta memberi kemudahan kepada pengguna dalam mendeteksi dan\nmanfaat dari tanaman herbal',
-                  style: blackTextStyle.copyWith(
-                    fontSize: 18,
-                    fontWeight: medium,
+                RichText(
+                  text: TextSpan(
+                    text:
+                        'Aplikasi Pengenalan Tanaman Herbal di dibuat untuk memberikan informasi mengenai tanaman herbal, manfaat tanaman herbal serta memberikan kemudahan kepada pengguna untuk mendeteksi tanaman herbal yang dibangun dengan menggunakan\nalat',
+                    style: blackTextStyle.copyWith(
+                      fontSize: 18,
+                      fontWeight: medium,
+                    ),
+                    children: [
+                      TextSpan(
+                        text: 'Teachable Machine',
+                        style: blackTextStyle.copyWith(
+                          fontStyle: FontStyle.italic,
+                        ),
+                      ),
+                      const TextSpan(
+                        text: '.',
+                      ),
+                    ],
                   ),
                   textAlign: TextAlign.center,
                 ),
@@ -42,7 +56,7 @@ class _TentangScreenState extends State<TentangScreen> {
                   height: 30,
                 ),
                 Text(
-                  'Dibuat Oleh:\n Hamdan Zulfan\n 52419710',
+                  'Dibuat Oleh:\n Hamdan Zulfan',
                   style: blackTextStyle.copyWith(
                     fontSize: 18,
                     fontWeight: medium,
